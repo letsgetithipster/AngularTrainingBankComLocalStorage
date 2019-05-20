@@ -1,0 +1,30 @@
+<div class="container">
+  <div class="row box-cadastro">
+    <div class="col-12">
+      <h3 class="text-center">Você está a um passo de criar sua conta Training Banking</h3>
+      <form class="mt-5" (ngSubmit)='cadastro()' [formGroup]='formCadastro'>
+        <div class="form-group">
+          <input type="text" class="form-control cadastro" id="exampleInputEmail1" aria-describedby="emailHelp"
+            placeholder="Nome" formControlName='nome'>
+        </div>
+        <div class="form-group">
+          <input type="text" class="form-control cadastro" id="exampleInputPassword1" placeholder="CPF"
+            formControlName='cpf'>
+        </div>
+        <div class="form-group">
+          <input type="email" class="form-control cadastro" id="exampleInputPassword1" placeholder="E-mail"
+            formControlName='email'>
+        </div>
+        <div class="form-group">
+          <input type="tel" class="form-control cadastro" id="exampleInputPassword1" placeholder="Telefone"
+            formControlName='telefone'>
+        </div>
+        <div class="form-group">
+          <input type="text" class="form-control cadastro" id="exampleInputPassword1" placeholder="Endereço"
+            formControlName='endereco'>
+        </div>
+        <button type="submit" class="btn btn-cadastro btn-lg">Cadastrar</button>
+      </form>
+    </div>
+  </div>
+</div>
