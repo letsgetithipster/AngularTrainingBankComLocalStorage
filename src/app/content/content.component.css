@@ -10,7 +10,7 @@
     width: 40vw;
     height: 100px;
     position: absolute;
-    top: 30%;
+    top: 20%;
     left: 10%;
     padding: 10px;
 }
@@ -46,7 +46,7 @@
 
 .btn-home-cadastro-clientes {
     position: absolute !important;
-    top: 240px;
+    top: 270px;
     padding: 20px;
     font-size: 25px;
     width: 40%;
